@@ -1,0 +1,56 @@
+body{
+  background-color: aquamarine;
+}
+section#busca{
+  margin-left: 8.5cm;
+  margin-bottom: 1cm;
+}
+div#cuadro{
+  display: flex;
+  flex-direction: row;
+}
+div#busquedasecundaria{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border: 2px solid grey;
+  border-radius: 8px;
+  width: 7.5cm;
+  padding: 6px;
+  height: 7cm;
+}
+div#personajes{
+    display: flex;             /* Activa Flexbox */
+    flex-wrap: wrap;           /* Permite que los elementos pasen a la siguiente línea si no caben */
+    justify-content: space-between; /* Espacio entre elementos horizontalmente */
+    align-content: space-between;  /* Espacio entre elementos verticalmente */
+    
+    ul {
+      margin-top: 0px;
+      list-style: none;
+      display: flex;               /* Activa Flexbox */
+        flex-wrap: wrap;             /* Permite que los elementos pasen a la siguiente línea */
+        justify-content: space-between; /* Espacio entre elementos horizontalmente */
+        align-content: space-between;
+        gap: 15px;
+    }
+    div{
+      display: flex;
+      background-color: whitesmoke;
+      border: 2px solid grey;
+      border-radius: 8px;
+      width: 200px;
+      height: auto;
+      flex-direction: column;
+      justify-content: flex-start;  /*Alinea en el eje principal, el de flex direction */
+      align-items: center;
+      padding: 5px;
+  }
+}
+
+img{
+  max-height: 5cm;
+}
+input{
+  justify-self: left;
+}

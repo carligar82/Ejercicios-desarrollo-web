@@ -1,0 +1,20 @@
+body{
+  display: flex;
+  background-color: beige;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  margin-left: 1cm;
+  height: 30%;
+  width: 30%;
+  justify-content: center;
+  align-content: center;
+ 
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
