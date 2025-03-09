@@ -1,10 +1,6 @@
 body{
   background-color: aquamarine;
 }
-section#busca{
-  margin-left: 8.5cm;
-  margin-bottom: 1cm;
-}
 div#cuadro{
   display: flex;
   flex-direction: row;
@@ -44,13 +40,12 @@ div#personajes{
       flex-direction: column;
       justify-content: flex-start;  /*Alinea en el eje principal, el de flex direction */
       align-items: center;
-      padding: 5px;
+      padding: 10px;
   }
 }
-
 img{
-  max-height: 5cm;
+  max-height: 189px;
 }
-input{
-  justify-self: left;
-}
+
+
+
